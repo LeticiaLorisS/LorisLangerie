@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff5f8;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #f8e1ea;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  max-width: 180px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+header p {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  color: #c2185b;
+}
+
+.produtos {
+  padding: 30px 20px;
+}
+
+.produtos h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #c2185b;
+}
+
+.produto {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.produto:hover {
+  transform: translateY(-3px);
+}
+
+.produto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.produto p {
+  font-weight: bold;
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.botao-whats {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.botao-whats:hover {
+  background-color: #1ebc57;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+footer {
+  background-color: #f8e1ea;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 1rem;
+  color: #6b0038;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.5px;
+}
+
+
+@media (max-width: 600px) {
+  .produtos h2 {
+    font-size: 1.5rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+}
+
+.pagamento {
+  background-color: #fff0f5;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #f3d6e0;
+  font-family: 'Playfair Display', serif;
+}
+
+.pagamento h2 {
+  color: #c2185b;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.pagamento .subtexto {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #6b0038;
+}
+
+.pagamento ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 20px auto;
+  max-width: 400px;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.pagamento ul li {
+  margin: 5px 0;
+}
+
+.pagamento .mensagem-final {
+  font-style: italic;
+  color: #9e1c5a;
+  font-size: 1rem;
+}
+
